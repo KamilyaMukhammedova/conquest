@@ -1,0 +1,259 @@
+.main-block {
+  &__inner {
+    position: relative;
+    height: 805px;
+
+    @include large {
+      height: 650px;
+    }
+
+    @include medium {
+      height: 500px;
+    }
+
+    @include small {
+      height: 620px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    position: absolute;
+    top: 41%;
+    left: 11%;
+    transform: translate(-20%, -41%);
+    z-index: 10;
+
+    @include large {
+      left: 14%;
+    }
+
+    @include medium {
+      left: 17%;
+    }
+
+    @include small {
+      top: 51%;
+      text-align: center;
+      width: 300px;
+      left: 50%;
+      margin-left: -150px;
+      transform: translate(0);
+    }
+  }
+
+  &__line {
+    height: 1px;
+    width: 50px;
+    background-color: $grey8B;
+
+    @include large {
+      width: 20px;
+    }
+
+    @include small {
+      display: none;
+    }
+  }
+
+  &_line1 {
+    margin: 70px 10px 0 0;
+
+    @include medium {
+      margin-top: 53px;
+    }
+  }
+
+  &_line2 {
+    margin-left: 10px;
+  }
+
+  &_line3 {
+    margin-right: 10px;
+  }
+
+  &__title1,
+  &__title2 {
+    font-weight: 400;
+    font-family: $Playfair;
+  }
+
+  &__title1 {
+    line-height: 59.99px;
+    font-size: 45px;
+    margin-bottom: 0;
+
+    @include large {
+      line-height: 55.99px;
+      font-size: 40px;
+    }
+
+    @include medium {
+      line-height: 50.99px;
+      font-size: 31px;
+    }
+  }
+
+  &__title2 {
+    line-height: 39.99px;
+    font-size: 30px;
+    margin-top: 0;
+
+    @include large {
+      line-height: 35.99px;
+      font-size: 25px;
+    }
+    @include medium {
+      line-height: 30.99px;
+      font-size: 19px;
+    }
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21.33px;
+    color: $mixBlack;
+    width: 60%;
+    margin-bottom: 61px;
+
+    @include medium {
+      width: 48%;
+      margin-bottom: 40px;
+    }
+
+    @include small {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__link {
+    color: $white;
+    background-color: $grey44;
+    text-transform: uppercase;
+    padding: 23px 35px;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+    &:hover {
+      background-color: $darkBeige;
+    }
+
+    @include large {
+      padding: 18px 27px;
+    }
+  }
+
+  &__ellipse-img {
+    position: absolute;
+    top: 36%;
+    right: 18%;
+    transform: translate(-20%, -39%);
+
+    @include large {
+      height: 600px;
+      width: auto;
+      top: 35%;
+      right: 10%;
+    }
+
+    @include medium {
+      height: 490px;
+      width: auto;
+      top: 36%;
+      right: 6%;
+    }
+
+    @include small {
+      display: none;
+    }
+  }
+
+  &__watch-img {
+    position: absolute;
+    top: 38%;
+    right: 5%;
+    transform: translate(-8%, -40%);
+
+    @include large {
+      height: 590px;
+      width: auto;
+      top: 40%;
+      right: 0;
+    }
+
+    @include medium {
+      height: 480px;
+      width: auto;
+      top: 42%;
+      right: -26px;
+    }
+
+    @include small {
+      width: 200px;
+      height: auto;
+      right: 50%;
+      margin-right: -100px;
+      top: 0;
+      transform: translate(0);
+    }
+  }
+
+  &__price-div,
+  &__size-div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__price-div {
+    position: absolute;
+    top: 16%;
+    right: 47%;
+
+    @include large {
+      right: 42%;
+    }
+
+    @include small {
+      display: none;
+    }
+  }
+
+  &__price-div svg {
+    @include medium {
+      height: 9px;
+    }
+  }
+
+  &__size-div {
+    position: absolute;
+    bottom: 19%;
+    right: 2%;
+
+    @include large {
+      bottom: 19%;
+      right: 0;
+    }
+
+    @include medium {
+      display: none;
+    }
+  }
+
+  &__details {
+    font: 400 16px $Prata;
+    line-height: 21.68px;
+
+    @include medium {
+      font-size: 12px;
+    }
+  }
+
+  &__box1 {
+    @include small {
+      width: 100%;
+    }
+  }
+}

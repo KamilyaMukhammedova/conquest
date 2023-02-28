@@ -7,7 +7,7 @@
 body {
   margin: 0;
   background-color: $colorFD;
-  font: 400 16px 'Roboto', sans-serif;
+  font: 400 16px $Roboto;
   color: $black1B;
   line-height: 16.41px;
 }
@@ -37,3 +37,4 @@ ul {
 li {
   display: inline-block;
 }
+
