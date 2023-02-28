@@ -1,0 +1,127 @@
+.header {
+  padding: 31px 0;
+
+  &__inner,
+  &__logo-div,
+  &__box2 {
+    display: flex;
+    align-items: center;
+  }
+
+  &__inner {
+    justify-content: space-between;
+
+    @include medium {
+      display: block;
+    }
+  }
+
+  &__logo-text {
+    font: 400 12px 'Playfair Display', Serif;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 7px;
+  }
+
+  &__menu {
+    display: none;
+
+    @include medium {
+      display: block;
+    }
+  }
+
+  &__menu-btn {
+    color: $grey55;
+    font-size: 30px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+  }
+
+  &__box1 {
+    @include medium {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+    }
+  }
+
+  &__box2 {
+    width: 68%;
+    justify-content: space-between;
+
+    @include medium {
+      display: block;
+      width: 100%;
+      text-align: right;
+      background-color: $darkBeige;
+      padding: 10px 15px 5px 0;
+    }
+  }
+
+  &__navigation {
+    color: $grey55;
+    font-size: 14px;
+
+    @include medium {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__nav-item {
+    margin-right: 3.9rem;
+
+    @include large {
+      margin-right: 2.5rem;
+    }
+
+    @include medium {
+      display: block;
+      margin: 10px 0 0 0;
+    }
+
+    &:hover {
+      color: $black1B;
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
+  &__icons-item {
+    margin-right: 14px;
+    padding: 5px 0;
+
+    @include medium {
+      margin: 0 0 0 10px;
+    }
+
+    &:hover path {
+      fill: $darkBeige;
+    }
+  }
+
+  &__favorite-ic {
+    position: relative;
+  }
+
+  &__favorite-num {
+    position: absolute;
+    top: 0;
+    right: -6px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    font-size: 8px;
+    background-color: #E6C8B4;
+    line-height: 13px;
+    text-align: center;
+
+    &:hover {
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+}

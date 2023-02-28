@@ -3,3 +3,37 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  background-color: $colorFD;
+  font: 400 16px 'Roboto', sans-serif;
+  color: $black1B;
+  line-height: 16.41px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+}
