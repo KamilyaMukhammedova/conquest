@@ -1,0 +1,131 @@
+.news {
+  background-color: #E5E5E5;
+  padding: 5rem 0 5.6rem;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+    @include medium {
+      display: block;
+    }
+  }
+
+  &__box1 {
+    width: 40%;
+    padding: 5.3rem 0 0 0;
+
+    @media screen and (max-width: 1170px) {
+      width: 30%;
+      padding-left: 20px;
+    }
+
+    @include medium {
+      width: 90%;
+      margin: 0 auto 20px;
+      text-align: center;
+    }
+  }
+
+  &__box2 {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1170px) {
+      width: 70%;
+      justify-content: center;
+    }
+
+    @include medium {
+      width: 100%;
+    }
+
+    @include small {
+      display: block;
+    }
+  }
+
+  &__box2-inner1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1170px) {
+      justify-content: center;
+    }
+
+    @include medium {
+      justify-content: space-between;
+    }
+  }
+
+  &__box2-inner2 {
+    width: 377px;
+
+    @include small {
+      width: 60%;
+      margin: 0 auto;
+      height: 230px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__title {
+    margin-bottom: 28px;
+  }
+
+  &__text {
+    width: 81%;
+    color: $grey44;
+    line-height: 27.19px;
+    margin-bottom: 6.8rem;
+
+    @include medium {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__account {
+    font-weight: 700;
+    color: $black26;
+  }
+
+  &__link {
+    margin-right: 16px;
+
+    &:hover path {
+      fill: $darkBeige;
+    }
+  }
+
+  &__photo2-div img {
+    height: 100%;
+  }
+
+  &__photo1-div {
+    width: 242px;
+
+    @include small {
+      width: 60%;
+      margin: 0 auto 10px;
+      height: 230px;
+    }
+  }
+
+  &__photo2-div {
+    width: 242px;
+
+    @include small {
+      width: 60%;
+      margin: 0 auto 10px;
+      height: 230px;
+    }
+  }
+}

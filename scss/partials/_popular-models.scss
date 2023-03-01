@@ -1,8 +1,9 @@
 .popular-models {
   background-color: $white;
-  padding-bottom: 5rem;
+  padding: 2em 0 5rem;
 
   &__title {
+    margin-top: 0;
     text-align: center;
     margin-bottom: -6px;
 
