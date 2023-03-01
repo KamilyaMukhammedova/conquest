@@ -1,14 +1,29 @@
 .main-block {
+  background-color: $white;
+  padding-bottom: 43px;
+
+  @include medium {
+    padding-bottom: 30px;
+  }
+
+  @include small {
+    padding-bottom: 0;
+  }
+
+  &__bg {
+    background-color: $colorFD;
+  }
+
   &__inner {
     position: relative;
-    height: 805px;
+    height: 761px;
 
     @include large {
-      height: 650px;
+      height: 566px;
     }
 
     @include medium {
-      height: 500px;
+      height: 467px;
     }
 
     @include small {
@@ -19,7 +34,7 @@
   &__text {
     display: flex;
     position: absolute;
-    top: 41%;
+    top: 43%;
     left: 11%;
     transform: translate(-20%, -41%);
     z-index: 10;
@@ -129,18 +144,6 @@
   }
 
   &__link {
-    color: $white;
-    background-color: $grey44;
-    text-transform: uppercase;
-    padding: 23px 35px;
-    font-weight: 500;
-    font-size: 12px;
-    letter-spacing: 1px;
-
-    &:hover {
-      background-color: $darkBeige;
-    }
-
     @include large {
       padding: 18px 27px;
     }
@@ -148,7 +151,7 @@
 
   &__ellipse-img {
     position: absolute;
-    top: 36%;
+    top: 38%;
     right: 18%;
     transform: translate(-20%, -39%);
 
@@ -173,14 +176,14 @@
 
   &__watch-img {
     position: absolute;
-    top: 38%;
+    top: 40%;
     right: 5%;
     transform: translate(-8%, -40%);
 
     @include large {
       height: 590px;
       width: auto;
-      top: 40%;
+      top: 41%;
       right: 0;
     }
 
@@ -209,7 +212,7 @@
 
   &__price-div {
     position: absolute;
-    top: 16%;
+    top: 17%;
     right: 47%;
 
     @include large {
@@ -229,7 +232,7 @@
 
   &__size-div {
     position: absolute;
-    bottom: 19%;
+    bottom: 15%;
     right: 2%;
 
     @include large {

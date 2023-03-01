@@ -1,0 +1,24 @@
+.link {
+  color: $white;
+  text-transform: uppercase;
+  padding: 23px 35px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+  &_grey {
+    background-color: $grey44;
+
+    &:hover {
+      background-color: $darkBeige;
+    }
+  }
+
+  &_beige {
+    background-color: $darkBeige;
+
+    &:hover {
+      background-color: $grey44;
+    }
+  }
+}

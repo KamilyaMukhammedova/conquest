@@ -1,0 +1,181 @@
+.quality {
+  &__description {
+    line-height: 24px;
+    color: $grey44;
+  }
+
+  &__inner {
+    display: flex;
+    height: 519px;
+    position: relative;
+
+    @include extraLarge {
+      height: 470px;
+    }
+
+    @include large {
+      height: 440px;
+    }
+
+    @include medium {
+      height: 700px;
+    }
+
+    @include small {
+      height: 660px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 21px;
+  }
+
+  &__box1 {
+    background-color: #F7F5EF;
+    width: 34.5%;
+
+    @include large {
+      width: 30%;
+    }
+
+    @include medium {
+      width: 40%;
+    }
+  }
+
+  &__box2 {
+    background-color: $colorFD;
+    width: 65.5%;
+
+    @include large {
+      width: 70%;
+    }
+
+    @include medium {
+      width: 60%;
+    }
+  }
+
+  &__text-div {
+    position: absolute;
+    top: 17%;
+    left: 56%;
+    z-index: 999;
+
+    @include large {
+      top: 12%;
+      left: 52%;
+    }
+
+    @include medium {
+      top: 59%;
+      left: 0;
+      text-align: center;
+    }
+
+    @include small {
+      top: 47%;
+    }
+  }
+
+  &__description {
+    width: 68%;
+    margin-bottom: 41px;
+
+    @include large {
+      line-height: 21px;
+      margin-bottom: 20px;
+    }
+
+    @include medium {
+      width: 80%;
+      margin: 0 auto 20px;
+    }
+  }
+
+  &__watch-img {
+    position: absolute;
+    top: 10%;
+    left: 13%;
+
+    @media screen and (max-width: 1260px) {
+      left: 7%;
+    }
+
+    @include extraLarge {
+      width: 400px;
+      height: auto;
+      top: 20%;
+    }
+
+    @include large {
+      width: 300px;
+    }
+
+    @include medium {
+      width: 400px;
+      top: 10%;
+      left: 50%;
+      margin-left: -200px;
+    }
+
+    @include small {
+      width: 270px;
+      top: 10%;
+      left: 50%;
+      margin-left: -135px;
+    }
+  }
+
+  &__link {
+    @include large {
+      padding: 18px 27px;
+    }
+  }
+
+  &__lines {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    @include extraLarge {
+      height: 470px;
+      width: auto;
+    }
+
+    @include large {
+      height: 440px;
+    }
+
+    @include medium {
+      display: none;
+    }
+  }
+
+  &__carousel-page {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    font: 400 19px $Prata;
+    line-height: 16.26px;
+
+    @include large {
+      left: 28%;
+      bottom: 14%;
+    }
+
+    @include medium {
+      bottom: 36%;
+    }
+
+    @include small {
+      bottom: 52%;
+      left: 15%;
+    }
+  }
+
+  &__carousel-num {
+    margin: 0 13px;
+    font-size: 12px;
+  }
+}

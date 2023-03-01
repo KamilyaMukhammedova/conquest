@@ -1,20 +1,13 @@
 .popular-models {
   background-color: $white;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 
   &__title {
-    font: 400 32px $Playfair;
-    line-height: 42.66px;
     text-align: center;
     margin-bottom: -6px;
 
     @include medium {
       margin-bottom: 15px;
-      font-size: 27px;
-    }
-
-    @include small {
-      font-size: 23px;
     }
   }
 

@@ -1,0 +1,12 @@
+.title {
+  font: 400 32px $Playfair;
+  line-height: 42.66px;
+
+  @include medium {
+    font-size: 27px;
+  }
+
+  @include small {
+    font-size: 23px;
+  }
+}
