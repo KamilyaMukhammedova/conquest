@@ -1,0 +1,210 @@
+.popular-models {
+  background-color: $white;
+  padding-bottom: 2rem;
+
+  &__title {
+    font: 400 32px $Playfair;
+    line-height: 42.66px;
+    text-align: center;
+    margin-bottom: -6px;
+
+    @include medium {
+      margin-bottom: 15px;
+      font-size: 27px;
+    }
+
+    @include small {
+      font-size: 23px;
+    }
+  }
+
+  &__watch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+    @include medium {
+      margin-top: 20px;
+    }
+
+    @include small {
+      display: block;
+    }
+  }
+
+  &__see-all {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    @include extraLarge {
+      padding-right: 20px;
+    }
+
+    @include small {
+      align-items: center;
+    }
+  }
+
+  &__see-all-link {
+    font-weight: 500;
+    line-height: 18.75px;
+    color: $grey44;
+
+    &:hover {
+      color: $greyC4;
+    }
+
+    @include medium {
+      font-size: 14px;
+    }
+
+    @include small {
+      font-size: 12px;
+    }
+  }
+
+  &__see-all-line {
+    display: block;
+    background-color: $greyC4;
+    height: 1px;
+    width: 103px;
+    margin-top: 5px;
+
+    @include medium {
+      width: 90px;
+    }
+  }
+
+  &__watch-box {
+    background-color: $colorFD;
+    padding: 40px 0 44px;
+    width: 32%;
+
+    @include medium {
+      padding: 20px 0 30px;
+    }
+
+    @include small {
+      width: 70%;
+      margin: 0 auto 20px;
+    }
+  }
+
+  &__images-div {
+    text-align: center;
+    position: relative;
+  }
+
+  &__ellipse-img {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+
+    @include extraLarge {
+      width: 280px;
+      height: auto;
+    }
+
+    @include large {
+      display: none;
+    }
+  }
+
+  &__watch-img {
+    @include extraLarge {
+      width: 290px;
+      height: auto;
+    }
+
+    @include large {
+      width: 200px;
+    }
+
+    @include medium {
+      width: 125px;
+    }
+
+    @include small {
+      width: 200px;
+    }
+  }
+
+  &__info {
+    padding-left: 44px;
+
+    @include medium {
+      margin-bottom: 10px;
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  &__name {
+    font: 700 14px $Playfair;
+    line-height: 24.26px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+    @include medium {
+      font-size: 12px;
+    }
+  }
+
+  &__price {
+    font: 400 12px $Prata;
+    line-height: 16.26px;
+    margin: 0 0 -6px 0;
+
+    @include medium {
+      font-size: 10px;
+    }
+  }
+
+  &__price svg {
+    margin-left: 5px;
+
+    @include medium {
+      margin-left: 3px;
+      height: 8px;
+    }
+  }
+
+  &__details-div {
+    display: flex;
+    align-items: center;
+    padding-left: 46px;
+
+    @include medium {
+      padding-left: 0;
+      justify-content: center;
+    }
+  }
+
+  &__line {
+    background-color: $grey8B;
+    height: 1px;
+    width: 30px;
+    margin-right: 17px;
+
+    @include medium {
+      width: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  &__details-link {
+    font-weight: 400;
+    font-family: $Playfair;
+    line-height: 21.33px;
+
+    &:hover {
+      color: $grey8B;
+    }
+
+    @include medium {
+      font-size: 12px;
+    }
+  }
+}

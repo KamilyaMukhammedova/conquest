@@ -419,3 +419,219 @@ li {
     width: 100%;
   }
 }
+
+.popular-models {
+  background-color: #FFFFFF;
+  padding-bottom: 2rem;
+}
+.popular-models__title {
+  font: 400 32px "Playfair Display", serif;
+  line-height: 42.66px;
+  text-align: center;
+  margin-bottom: -6px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__title {
+    margin-bottom: 15px;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__title {
+    font-size: 23px;
+  }
+}
+.popular-models__watch-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__watch-container {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__watch-container {
+    display: block;
+  }
+}
+.popular-models__see-all {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+@media screen and (max-width: 1140px) {
+  .popular-models__see-all {
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__see-all {
+    align-items: center;
+  }
+}
+.popular-models__see-all-link {
+  font-weight: 500;
+  line-height: 18.75px;
+  color: #444240;
+}
+.popular-models__see-all-link:hover {
+  color: #C4C0B6;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__see-all-link {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__see-all-link {
+    font-size: 12px;
+  }
+}
+.popular-models__see-all-line {
+  display: block;
+  background-color: #C4C0B6;
+  height: 1px;
+  width: 103px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__see-all-line {
+    width: 90px;
+  }
+}
+.popular-models__watch-box {
+  background-color: #FDFDFB;
+  padding: 40px 0 44px;
+  width: 32%;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__watch-box {
+    padding: 20px 0 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__watch-box {
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+}
+.popular-models__images-div {
+  text-align: center;
+  position: relative;
+}
+.popular-models__ellipse-img {
+  position: absolute;
+  top: 1%;
+  left: 10%;
+}
+@media screen and (max-width: 1140px) {
+  .popular-models__ellipse-img {
+    width: 280px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 997px) {
+  .popular-models__ellipse-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .popular-models__watch-img {
+    width: 290px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 997px) {
+  .popular-models__watch-img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popular-models__watch-img {
+    width: 125px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .popular-models__watch-img {
+    width: 200px;
+  }
+}
+.popular-models__info {
+  padding-left: 44px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__info {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+.popular-models__name {
+  font: 700 14px "Playfair Display", serif;
+  line-height: 24.26px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__name {
+    font-size: 12px;
+  }
+}
+.popular-models__price {
+  font: 400 12px "Prata", serif;
+  line-height: 16.26px;
+  margin: 0 0 -6px 0;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__price {
+    font-size: 10px;
+  }
+}
+.popular-models__price svg {
+  margin-left: 5px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__price svg {
+    margin-left: 3px;
+    height: 8px;
+  }
+}
+.popular-models__details-div {
+  display: flex;
+  align-items: center;
+  padding-left: 46px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__details-div {
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+.popular-models__line {
+  background-color: #8B8371;
+  height: 1px;
+  width: 30px;
+  margin-right: 17px;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__line {
+    width: 10px;
+    margin-right: 10px;
+  }
+}
+.popular-models__details-link {
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  line-height: 21.33px;
+}
+.popular-models__details-link:hover {
+  color: #8B8371;
+}
+@media screen and (max-width: 768px) {
+  .popular-models__details-link {
+    font-size: 12px;
+  }
+}
