@@ -995,5 +995,86 @@ li {
 
 .footer {
   background-color: #444240;
-  height: 100px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 12px;
+  line-height: 14.06px;
+  padding: 72px 0 60px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 50px 0;
+    font-size: 10px;
+  }
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 576px) {
+  .footer__inner {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+.footer__logo-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1140px) {
+  .footer__logo-div {
+    align-items: start;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__logo-div {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+.footer__logo-text {
+  font: 700 14px "Playfair Display", serif;
+  line-height: 18.66px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .footer__logo-text {
+    font-size: 12px;
+  }
+}
+.footer__title {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  margin: 0 0 31px;
+}
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+.footer__box {
+  width: 20%;
+}
+@media screen and (max-width: 576px) {
+  .footer__box {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+.footer__item {
+  display: block;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .footer__item {
+    margin-bottom: 5px;
+  }
 }
